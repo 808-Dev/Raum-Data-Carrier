@@ -6,7 +6,7 @@ This document will show you how to take complete advantage of the Raum carrier s
 on any system that is based on Debian without any issues and enables compatibility with both 64 bit ARM and AMD platforms.
 <br><br>
 
-##Installation
+<h3>Installation</h3>
 
 <b>Public Access Carriers</b> <hr>
 To setup the Raum server you must first ensure that all domains that are to be used for it are pointing to the servers public IP and ensure that
@@ -20,7 +20,7 @@ will not need to be assigned. After a complete setup of the carrier, you will be
 If you are setting up a private carrier you will be able to enable variable storage since you will only be storing your own data on it.
 This will be located in the config.ini file under []
 
-##Configuration
+<h3>Configuration</h3>
 
 <b>config.ini</b> <hr>
 The config.ini file included in this package is able to be updated before, during and after set up and installation.
@@ -29,7 +29,7 @@ You are able to change database addresses, credentials aswell as other server re
 <b>Command Line Arguments</b> <hr>
 You can add --help on end of the main.py file to access information regarding command line arguments.
 
-##Usage
+<h3>Usage</h3>
 
 To use the server as is you will want to initially set it up via the 'setup.py' command that is provided in this repo
 After successful completion of the setup, you will then be able to use 'main.py' to run the server.
